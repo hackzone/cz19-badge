@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:cz19-badge-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -26,8 +27,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1000 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1000 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -43,8 +42,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -60,8 +57,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -77,8 +72,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -94,8 +87,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -111,8 +102,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5750 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -128,8 +117,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -145,8 +132,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -162,8 +147,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -179,8 +162,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -196,8 +177,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -213,8 +192,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 11450 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -230,8 +207,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 12400 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -247,8 +222,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 13350 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -264,8 +237,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 14300 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -281,8 +252,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 1200
 	1    0    0    -1  
 $EndComp
-Text GLabel 15250 1500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 900  1    50   UnSpc ~ 0
 GND
 $Comp
@@ -298,8 +267,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 15250 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -315,8 +282,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 14300 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -332,8 +297,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 13350 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -349,8 +312,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 12400 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -366,8 +327,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 11450 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -383,8 +342,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 10500 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -400,8 +357,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 9550 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -417,8 +372,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 8600 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -434,8 +387,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 7650 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -451,8 +402,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 6700 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -468,8 +417,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 5750 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -485,8 +432,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 4800 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -502,8 +447,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 3850 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -519,8 +462,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 2900 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -536,8 +477,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1950 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 2500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -553,8 +492,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1000 2200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1000 1900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 1000 2500 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -632,8 +569,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1000 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1000 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -649,8 +584,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -666,8 +599,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -683,8 +614,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -700,8 +629,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -717,8 +644,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5750 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -734,8 +659,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -751,8 +674,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -768,8 +689,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -785,8 +704,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -802,8 +719,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -819,8 +734,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 11450 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -836,8 +749,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 12400 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -853,8 +764,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 13350 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -870,8 +779,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 14300 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 2900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -887,8 +794,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 15250 3500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 2900 1    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -936,8 +841,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 15250 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -953,8 +856,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 14300 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -970,8 +871,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 13350 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -987,8 +886,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 12400 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1004,8 +901,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 11450 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1021,8 +916,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 10500 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1038,8 +931,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 9550 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1055,8 +946,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 8600 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1072,8 +961,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 7650 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1089,8 +976,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 6700 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1106,8 +991,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 5750 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1123,8 +1006,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 4800 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1140,8 +1021,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 3850 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1157,8 +1036,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 2900 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1174,8 +1051,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1950 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 4500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1191,8 +1066,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1000 4200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1000 3900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 1000 4500 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -1240,8 +1113,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1000 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1000 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1257,8 +1128,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1274,8 +1143,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1291,8 +1158,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1308,8 +1173,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1325,8 +1188,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5750 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1342,8 +1203,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1359,8 +1218,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1376,8 +1233,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1393,8 +1248,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1410,8 +1263,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1427,8 +1278,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 11450 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1444,8 +1293,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 12400 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1461,8 +1308,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 13350 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1478,8 +1323,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 14300 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 4900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1495,8 +1338,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 15250 5500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 4900 1    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -1544,8 +1385,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 15250 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1561,8 +1400,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 14300 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1578,8 +1415,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 13350 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1595,8 +1430,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 12400 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1612,8 +1445,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 11450 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1629,8 +1460,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 10500 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1646,8 +1475,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 9550 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1663,8 +1490,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 8600 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1680,8 +1505,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 7650 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1697,8 +1520,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 6700 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1714,8 +1535,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 5750 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1731,8 +1550,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 4800 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1748,8 +1565,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 3850 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1765,8 +1580,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 2900 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1782,8 +1595,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1950 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 6500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -1799,8 +1610,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1000 6200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1000 5900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 1000 6500 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -1848,8 +1657,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1000 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1000 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1865,8 +1672,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 1950 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1882,8 +1687,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2900 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1899,8 +1702,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1916,8 +1717,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1933,8 +1732,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 5750 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1950,8 +1747,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1967,8 +1762,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7650 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -1984,8 +1777,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 8600 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -2001,8 +1792,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -2018,8 +1807,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 10500 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -2035,8 +1822,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 11450 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -2052,8 +1837,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 12400 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -2069,8 +1852,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 13350 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -2086,8 +1867,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 14300 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 6900 1    50   UnSpc ~ 0
 GND
 $Comp
@@ -2103,8 +1882,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 7200
 	1    0    0    -1  
 $EndComp
-Text GLabel 15250 7500 3    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 6900 1    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -2152,8 +1929,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    15250 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 15250 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 15250 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2169,8 +1944,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    14300 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 14300 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 14300 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2186,8 +1959,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    13350 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 13350 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 13350 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2203,8 +1974,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    12400 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 12400 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 12400 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2220,8 +1989,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    11450 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 11450 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 11450 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2237,8 +2004,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    10500 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 10500 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 10500 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2254,8 +2019,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    9550 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 9550 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 9550 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2271,8 +2034,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    8600 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 8600 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 8600 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2288,8 +2049,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    7650 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 7650 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 7650 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2305,8 +2064,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    6700 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 6700 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 6700 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2322,8 +2079,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    5750 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 5750 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 5750 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2339,8 +2094,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    4800 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 4800 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 4800 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2356,8 +2109,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    3850 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 3850 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 3850 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2373,8 +2124,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    2900 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 2900 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 2900 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2390,8 +2139,6 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	1    1950 8200
 	-1   0    0    1   
 $EndComp
-Text GLabel 1950 7900 1    50   UnSpc ~ 0
-3V3
 Text GLabel 1950 8500 3    50   UnSpc ~ 0
 GND
 $Comp
@@ -2408,7 +2155,7 @@ F 3 "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
 	-1   0    0    1   
 $EndComp
 Text GLabel 1000 7900 1    50   UnSpc ~ 0
-3V3
+VCC
 Text GLabel 1000 8500 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
@@ -2454,7 +2201,7 @@ Wire Wire Line
 Text GLabel 1750 10100 3    50   UnSpc ~ 0
 GND
 Text GLabel 2100 10100 3    50   UnSpc ~ 0
-3V3
+VCC
 Text HLabel 1750 9950 0    50   Input ~ 0
 GND
 Text HLabel 2100 9950 2    50   Input ~ 0
@@ -2463,4 +2210,266 @@ Wire Wire Line
 	2100 9950 2100 10100
 Wire Wire Line
 	1750 9950 1750 10100
+Text GLabel 1950 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 7900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 1000 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 1950 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 7500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 1000 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 1950 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 5900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 1000 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 1950 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 5500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 1000 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 1950 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 3900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 1000 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 1950 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 3500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 1000 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 1950 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 1900 1    50   UnSpc ~ 0
+VCC
+Text GLabel 1000 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 1950 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 2900 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 3850 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 4800 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 5750 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 6700 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 7650 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 8600 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 9550 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 10500 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 11450 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 12400 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 13350 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 14300 1500 3    50   UnSpc ~ 0
+VCC
+Text GLabel 15250 1500 3    50   UnSpc ~ 0
+VCC
 $EndSCHEMATC
