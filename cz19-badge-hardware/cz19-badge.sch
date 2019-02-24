@@ -187,14 +187,10 @@ Wire Wire Line
 	8350 2000 8150 2000
 Wire Wire Line
 	8150 2100 8350 2100
-Text GLabel 8150 1300 0    50   Output ~ 0
+Text GLabel 6850 1800 0    50   Output ~ 0
 ESP_EN
-Wire Wire Line
-	8150 1300 8350 1300
-Text GLabel 8150 1400 0    50   Output ~ 0
+Text GLabel 6850 900  0    50   Output ~ 0
 ESP_FLASH
-Wire Wire Line
-	8150 1400 8350 1400
 NoConn ~ 8350 1800
 NoConn ~ 8350 1700
 NoConn ~ 8350 1600
@@ -234,4 +230,122 @@ GND
 Wire Wire Line
 	10000 1300 10000 1400
 Connection ~ 10000 1400
+$Comp
+L Transistor_BJT:PZT2222A Q?
+U 1 1 5C7286ED
+P 7400 1600
+F 0 "Q?" H 7300 1750 50  0000 L CNN
+F 1 "MMBT2222A" H 7150 1850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 7600 1525 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 7400 1600 50  0001 L CNN
+	1    7400 1600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Transistor_BJT:PZT2222A Q?
+U 1 1 5C728801
+P 7400 1100
+F 0 "Q?" H 7300 1250 50  0000 L CNN
+F 1 "MMBT2222A" H 7150 1350 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 7600 1025 50  0001 L CIN
+F 3 "http://www.fairchildsemi.com/ds/PN/PN2222A.pdf" H 7400 1100 50  0001 L CNN
+	1    7400 1100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 900  6900 900 
+Wire Wire Line
+	6850 1800 6900 1800
+$Comp
+L Device:R R?
+U 1 1 5C72BD16
+P 7850 1100
+F 0 "R?" V 7750 1100 50  0000 C CNN
+F 1 "10k" V 7850 1100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 1100 50  0001 C CNN
+F 3 "~" H 7850 1100 50  0001 C CNN
+	1    7850 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5C72BEF3
+P 7850 1600
+F 0 "R?" V 7750 1600 50  0000 C CNN
+F 1 "10k" V 7850 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7780 1600 50  0001 C CNN
+F 3 "~" H 7850 1600 50  0001 C CNN
+	1    7850 1600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7700 1600 7600 1600
+Wire Wire Line
+	7600 1100 7700 1100
+Wire Wire Line
+	8000 1300 8000 1100
+Wire Wire Line
+	8000 1300 7750 1300
+Wire Wire Line
+	7750 1300 7750 1350
+Wire Wire Line
+	7750 1350 7650 1350
+Wire Wire Line
+	7650 1350 7650 1400
+Wire Wire Line
+	7650 1400 7300 1400
+Connection ~ 8000 1300
+Wire Wire Line
+	7300 1300 7700 1300
+Wire Wire Line
+	7700 1300 7700 1400
+Wire Wire Line
+	7700 1400 8000 1400
+Wire Wire Line
+	8000 1400 8000 1600
+Connection ~ 8000 1400
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5C7325F3
+P 7050 1300
+F 0 "JP?" H 7050 1505 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6800 1400 50  0000 C CNN
+F 2 "" H 7050 1300 50  0001 C CNN
+F 3 "~" H 7050 1300 50  0001 C CNN
+	1    7050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 5C73410B
+P 7050 1400
+F 0 "JP?" H 7050 1200 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6800 1300 50  0000 C CNN
+F 2 "" H 7050 1400 50  0001 C CNN
+F 3 "~" H 7050 1400 50  0001 C CNN
+	1    7050 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 1400 8350 1400
+Wire Wire Line
+	8000 1300 8350 1300
+Wire Wire Line
+	6900 1300 6900 900 
+Connection ~ 6900 900 
+Wire Wire Line
+	6900 900  7300 900 
+Wire Wire Line
+	7200 1300 7300 1300
+Connection ~ 7300 1300
+Wire Wire Line
+	7200 1400 7300 1400
+Connection ~ 7300 1400
+Wire Wire Line
+	6900 1400 6900 1800
+Connection ~ 6900 1800
+Wire Wire Line
+	6900 1800 7300 1800
+Text Notes 5500 1400 0    50   ~ 0
+Jumpers are for prototype so\nwe won’t have to use the transistors
 $EndSCHEMATC
