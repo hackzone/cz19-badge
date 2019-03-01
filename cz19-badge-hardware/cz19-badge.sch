@@ -308,10 +308,10 @@ Text GLabel 9550 3700 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	9550 3700 9550 3600
-Text GLabel 10200 2100 3    50   UnSpc ~ 0
+Text GLabel 10200 2300 3    50   UnSpc ~ 0
 VCC
 Wire Wire Line
-	10200 2100 10200 1900
+	10200 1950 10200 1900
 Connection ~ 10200 1900
 Wire Wire Line
 	2850 4100 2850 4200
@@ -713,7 +713,7 @@ Wire Wire Line
 Wire Wire Line
 	4450 1100 4450 1400
 Wire Wire Line
-	4450 1400 4850 1400
+	4450 1400 4650 1400
 Connection ~ 4450 1400
 Wire Wire Line
 	4450 1400 4450 1700
@@ -721,4 +721,117 @@ Wire Wire Line
 	2750 1400 2700 1400
 Wire Wire Line
 	2750 1100 2700 1100
+$Comp
+L Device:D D193
+U 1 1 5C7879BB
+P 10200 2100
+F 0 "D193" V 10246 2021 50  0000 R CNN
+F 1 "D" V 10155 2021 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 10200 2100 50  0001 C CNN
+F 3 "~" H 10200 2100 50  0001 C CNN
+	1    10200 2100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10200 2300 10200 2250
+Text Notes 4900 3350 0    50   ~ 0
+TODO:\n- Check if PWM on SK6812 GND works\n- Decide which diode footprint to use for vUSB\n- Add buttons\n- Add voltage sensing to vUSB + vBatt\n- Add lipo charging circuit\n- Add audio
+Text Notes 2750 6350 0    50   ~ 0
+I2S raw output 1
+Text Notes 2750 6450 0    50   ~ 0
+I2S raw output 2
+$Comp
+L Device:R R?
+U 1 1 5C797B8C
+P 4650 1250
+F 0 "R?" V 4600 1100 50  0000 C CNN
+F 1 "10k" V 4650 1250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 1250 50  0001 C CNN
+F 3 "~" H 4650 1250 50  0001 C CNN
+	1    4650 1250
+	-1   0    0    1   
+$EndComp
+Connection ~ 4650 1400
+Wire Wire Line
+	4650 1400 4850 1400
+Text GLabel 4650 1050 1    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	4650 1050 4650 1100
+$Comp
+L tp4056:TP4056 U?
+U 1 1 5C7A47D9
+P 5850 6500
+F 0 "U?" H 5850 6930 60  0000 C CNN
+F 1 "TP4056" H 5850 7036 60  0000 C CNN
+F 2 "" H 5850 6500 60  0000 C CNN
+F 3 "" H 5850 6500 60  0000 C CNN
+	1    5850 6500
+	-1   0    0    1   
+$EndComp
+Text GLabel 6400 6750 2    50   UnSpc ~ 0
+5V_USB
+Wire Wire Line
+	6400 6750 6350 6750
+Wire Wire Line
+	6350 6750 6350 6650
+Connection ~ 6350 6750
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C7AC3F8
+P 5250 6750
+F 0 "#PWR?" H 5250 6600 50  0001 C CNN
+F 1 "+BATT" H 5265 6923 50  0000 C CNN
+F 2 "" H 5250 6750 50  0001 C CNN
+F 3 "" H 5250 6750 50  0001 C CNN
+	1    5250 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 6750 5350 6750
+Wire Wire Line
+	5800 6100 5850 6100
+Wire Wire Line
+	5850 6100 5850 5900
+Connection ~ 5850 6100
+$Comp
+L Device:D D?
+U 1 1 5C7B6FA5
+P 6000 5900
+F 0 "D?" V 6046 5821 50  0000 R CNN
+F 1 "D" V 5955 5821 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 6000 5900 50  0001 C CNN
+F 3 "~" H 6000 5900 50  0001 C CNN
+	1    6000 5900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5C7B7D97
+P 5700 5900
+F 0 "D?" V 5746 5821 50  0000 R CNN
+F 1 "D" V 5655 5821 50  0000 R CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 5700 5900 50  0001 C CNN
+F 3 "~" H 5700 5900 50  0001 C CNN
+	1    5700 5900
+	1    0    0    1   
+$EndComp
+$Comp
+L power:-BATT #PWR?
+U 1 1 5C7BC2F3
+P 6350 5900
+F 0 "#PWR?" H 6350 5750 50  0001 C CNN
+F 1 "-BATT" H 6365 6073 50  0000 C CNN
+F 2 "" H 6350 5900 50  0001 C CNN
+F 3 "" H 6350 5900 50  0001 C CNN
+	1    6350 5900
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 5900 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	5400 5900 5550 5900
+Wire Wire Line
+	6150 5900 6350 5900
+Connection ~ 5850 5900
 $EndSCHEMATC
