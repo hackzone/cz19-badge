@@ -288,31 +288,26 @@ Jumpers are for prototype so\nwe won’t have to use the transistors
 $Comp
 L Regulator_Linear:AMS1117 U2
 U 1 1 5C73D096
-P 9550 3300
-F 0 "U2" H 9550 3542 50  0000 C CNN
-F 1 "AMS1117" H 9550 3451 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9550 3500 50  0001 C CNN
-F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 9650 3050 50  0001 C CNN
-	1    9550 3300
+P 7900 4650
+F 0 "U2" H 7900 4892 50  0000 C CNN
+F 1 "AMS1117" H 7900 4801 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7900 4850 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 8000 4400 50  0001 C CNN
+	1    7900 4650
 	1    0    0    -1  
 $EndComp
-Text GLabel 9150 3300 0    50   UnSpc ~ 0
+Text GLabel 7500 4650 0    50   UnSpc ~ 0
 VCC
 Wire Wire Line
-	9150 3300 9250 3300
-Text GLabel 9950 3300 2    50   UnSpc ~ 0
+	7500 4650 7600 4650
+Text GLabel 8300 4650 2    50   UnSpc ~ 0
 3V3
 Wire Wire Line
-	9950 3300 9850 3300
-Text GLabel 9550 3700 3    50   UnSpc ~ 0
+	8300 4650 8200 4650
+Text GLabel 7900 5050 3    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	9550 3700 9550 3600
-Text GLabel 10200 2300 3    50   UnSpc ~ 0
-VCC
-Wire Wire Line
-	10200 1950 10200 1900
-Connection ~ 10200 1900
+	7900 5050 7900 4950
 Wire Wire Line
 	2850 4100 2850 4200
 $Comp
@@ -442,144 +437,123 @@ Connection ~ 4450 1700
 $Comp
 L power:+BATT #PWR01
 U 1 1 5C7B5CB3
-P 8800 4500
-F 0 "#PWR01" H 8800 4350 50  0001 C CNN
-F 1 "+BATT" H 8815 4673 50  0000 C CNN
-F 2 "" H 8800 4500 50  0001 C CNN
-F 3 "" H 8800 4500 50  0001 C CNN
-	1    8800 4500
+P 9400 4600
+F 0 "#PWR01" H 9400 4450 50  0001 C CNN
+F 1 "+BATT" H 9415 4773 50  0000 C CNN
+F 2 "" H 9400 4600 50  0001 C CNN
+F 3 "" H 9400 4600 50  0001 C CNN
+	1    9400 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-BATT #PWR02
 U 1 1 5C7B5E7B
-P 10200 4500
-F 0 "#PWR02" H 10200 4350 50  0001 C CNN
-F 1 "-BATT" H 10215 4673 50  0000 C CNN
-F 2 "" H 10200 4500 50  0001 C CNN
-F 3 "" H 10200 4500 50  0001 C CNN
-	1    10200 4500
+P 10800 4600
+F 0 "#PWR02" H 10800 4450 50  0001 C CNN
+F 1 "-BATT" H 10815 4773 50  0000 C CNN
+F 2 "" H 10800 4600 50  0001 C CNN
+F 3 "" H 10800 4600 50  0001 C CNN
+	1    10800 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Transistor_FET:DMN2050L Q9
 U 1 1 5C7B6A21
-P 9550 6200
-F 0 "Q9" V 9700 6000 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 9800 5800 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9750 6125 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 9550 6200 50  0001 L CNN
-	1    9550 6200
+P 10150 6100
+F 0 "Q9" V 10300 5900 50  0000 L CNN
+F 1 "AO3400 (A09T)" V 10400 5700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 6025 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 6100 50  0001 L CNN
+	1    10150 6100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Transistor_FET:DMN2050L Q7
 U 1 1 5C7B6A2B
-P 9550 5600
-F 0 "Q7" V 9700 5400 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 9800 5200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9750 5525 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 9550 5600 50  0001 L CNN
-	1    9550 5600
+P 10150 5600
+F 0 "Q7" V 10300 5400 50  0000 L CNN
+F 1 "AO3400 (A09T)" V 10400 5200 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 5525 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 5600 50  0001 L CNN
+	1    10150 5600
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9250 4900 0    50   UnSpc ~ 0
+Text GLabel 9850 5000 0    50   UnSpc ~ 0
 GND
 $Comp
 L Transistor_FET:DMN2050L Q6
 U 1 1 5C7B6A34
-P 9550 5000
-F 0 "Q6" V 9700 4800 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 9800 4600 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9750 4925 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 9550 5000 50  0001 L CNN
-	1    9550 5000
+P 10150 5100
+F 0 "Q6" V 10300 4900 50  0000 L CNN
+F 1 "AO3400 (A09T)" V 10400 4700 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 5025 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 5100 50  0001 L CNN
+	1    10150 5100
 	0    -1   -1   0   
 $EndComp
-Text GLabel 9250 5500 0    50   UnSpc ~ 0
+Text GLabel 9850 5500 0    50   UnSpc ~ 0
 GND
-Text GLabel 9250 6100 0    50   UnSpc ~ 0
+Text GLabel 9850 6000 0    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	9750 4900 10000 4900
+	10350 5000 10600 5000
 Wire Wire Line
-	10000 4900 10000 5500
+	10600 5000 10600 5500
 Wire Wire Line
-	10000 5500 10200 5500
+	10600 5500 10800 5500
 Wire Wire Line
-	10000 5500 9750 5500
-Connection ~ 10000 5500
+	10600 5500 10350 5500
+Connection ~ 10600 5500
 Wire Wire Line
-	9750 6100 10000 6100
+	10350 6000 10600 6000
 Wire Wire Line
-	10000 6100 10000 5500
+	10600 6000 10600 5500
 Wire Wire Line
-	9350 4900 9250 4900
+	9950 5000 9850 5000
 Wire Wire Line
-	9350 5500 9250 5500
+	9950 5500 9850 5500
 Wire Wire Line
-	9350 6100 9250 6100
+	9950 6000 9850 6000
 Wire Wire Line
-	8800 6400 9550 6400
+	9400 6300 10150 6300
 Wire Wire Line
-	9550 5200 9000 5200
+	10150 5300 9600 5300
 Wire Wire Line
-	9000 5200 9000 5600
+	9600 5300 9600 5500
 Wire Wire Line
-	9000 5600 8800 5600
+	9600 5500 9400 5500
 Wire Wire Line
-	8800 5600 8800 5800
+	9400 5500 9400 5800
 Wire Wire Line
-	9550 5800 8800 5800
-Connection ~ 8800 5800
+	10150 5800 9400 5800
+Connection ~ 9400 5800
 Wire Wire Line
-	8800 5800 8800 6400
-Text GLabel 8700 4550 0    50   UnSpc ~ 0
+	9400 5800 9400 6300
+Text GLabel 9300 4650 0    50   UnSpc ~ 0
 VCC
 $Comp
 L Device:R R7
 U 1 1 5C7E3C14
-P 8800 5150
-F 0 "R7" V 8700 5150 50  0000 C CNN
-F 1 "10k" V 8800 5150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8730 5150 50  0001 C CNN
-F 3 "~" H 8800 5150 50  0001 C CNN
-	1    8800 5150
+P 9400 5150
+F 0 "R7" V 9300 5150 50  0000 C CNN
+F 1 "10k" V 9400 5150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9330 5150 50  0001 C CNN
+F 3 "~" H 9400 5150 50  0001 C CNN
+	1    9400 5150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	8700 4550 8800 4550
+	9300 4650 9400 4650
 Wire Wire Line
-	8800 4550 8800 4500
-Connection ~ 8800 4550
+	9400 4650 9400 4600
+Connection ~ 9400 4650
 Wire Wire Line
-	10200 4500 10200 5500
-Text GLabel 8050 5900 0    50   UnSpc ~ 0
-5V_USB
+	10800 4600 10800 5500
 Wire Wire Line
-	8800 5300 8800 5600
-Connection ~ 8800 5600
+	9400 5300 9400 5500
+Connection ~ 9400 5500
 Wire Wire Line
-	8800 4550 8800 5000
-$Comp
-L Transistor_FET:DMN2050L Q8
-U 1 1 5C7FA4CC
-P 8350 5700
-F 0 "Q8" V 8500 5500 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 8600 5300 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 8550 5625 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 8350 5700 50  0001 L CNN
-	1    8350 5700
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	8050 5900 8250 5900
-Text GLabel 8050 5600 0    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	8050 5600 8150 5600
-Wire Wire Line
-	8550 5600 8800 5600
+	9400 4650 9400 5000
 NoConn ~ 1500 5850
 NoConn ~ 1500 5950
 NoConn ~ 1500 6050
@@ -621,37 +595,19 @@ Wire Notes Line
 Wire Notes Line
 	7000 6550 7000 2750
 Wire Notes Line
-	11200 4000 7000 4000
+	11200 4150 7000 4150
 Wire Notes Line
 	450  2750 11200 2750
-Text Notes 1600 2550 0    98   ~ 0
+Text Notes 650  2550 0    98   ~ 0
 LED matrix
 Text Notes 6250 2550 0    98   ~ 0
 USB + UART
-Text Notes 7200 3450 0    98   ~ 0
+Text Notes 7100 4400 0    98   ~ 0
 3V power
-Text Notes 7200 5000 0    98   ~ 0
-Battery reverse\npolarity + USB \npower switching
-Text Notes 1600 3300 0    98   ~ 0
+Text Notes 9400 6500 0    98   ~ 0
+Battery reverse polarity
+Text Notes 650  3100 0    98   ~ 0
 Microcontroller
-$Comp
-L Device:R R10
-U 1 1 5C79DFD1
-P 8250 6050
-F 0 "R10" V 8150 6050 50  0000 C CNN
-F 1 "10k" V 8250 6050 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 6050 50  0001 C CNN
-F 3 "~" H 8250 6050 50  0001 C CNN
-	1    8250 6050
-	-1   0    0    1   
-$EndComp
-Connection ~ 8250 5900
-Wire Wire Line
-	8250 5900 8350 5900
-Text GLabel 8250 6250 3    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	8250 6250 8250 6200
 Wire Wire Line
 	1350 4100 1350 4200
 Connection ~ 1150 4650
@@ -662,40 +618,40 @@ Wire Wire Line
 $Comp
 L Device:Battery BT1
 U 1 1 5C76EEF3
-P 9500 4400
-F 0 "BT1" V 9745 4400 50  0000 C CNN
-F 1 "Battery" V 9654 4400 50  0000 C CNN
-F 2 "LiPoHolder:BatteryHolder_Keystone_1042_1x18650" V 9500 4460 50  0001 C CNN
-F 3 "~" V 9500 4460 50  0001 C CNN
-	1    9500 4400
+P 10100 4600
+F 0 "BT1" V 10345 4600 50  0000 C CNN
+F 1 "Battery" V 10254 4600 50  0000 C CNN
+F 2 "LiPoHolder:BatteryHolder_Keystone_1042_1x18650" V 10100 4660 50  0001 C CNN
+F 3 "~" V 10100 4660 50  0001 C CNN
+	1    10100 4600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+BATT #PWR0101
 U 1 1 5C76F2E7
-P 9200 4400
-F 0 "#PWR0101" H 9200 4250 50  0001 C CNN
-F 1 "+BATT" H 9215 4573 50  0000 C CNN
-F 2 "" H 9200 4400 50  0001 C CNN
-F 3 "" H 9200 4400 50  0001 C CNN
-	1    9200 4400
+P 9800 4600
+F 0 "#PWR0101" H 9800 4450 50  0001 C CNN
+F 1 "+BATT" H 9815 4773 50  0000 C CNN
+F 2 "" H 9800 4600 50  0001 C CNN
+F 3 "" H 9800 4600 50  0001 C CNN
+	1    9800 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:-BATT #PWR0102
 U 1 1 5C76F61E
-P 9800 4400
-F 0 "#PWR0102" H 9800 4250 50  0001 C CNN
-F 1 "-BATT" H 9815 4573 50  0000 C CNN
-F 2 "" H 9800 4400 50  0001 C CNN
-F 3 "" H 9800 4400 50  0001 C CNN
-	1    9800 4400
+P 10400 4600
+F 0 "#PWR0102" H 10400 4450 50  0001 C CNN
+F 1 "-BATT" H 10415 4773 50  0000 C CNN
+F 2 "" H 10400 4600 50  0001 C CNN
+F 3 "" H 10400 4600 50  0001 C CNN
+	1    10400 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9800 4400 9700 4400
+	10400 4600 10300 4600
 Wire Wire Line
-	9300 4400 9200 4400
+	9900 4600 9800 4600
 Text GLabel 10200 1600 0    50   BiDi ~ 0
 USB_DN
 Text GLabel 10200 1700 0    50   BiDi ~ 0
@@ -721,21 +677,8 @@ Wire Wire Line
 	2750 1400 2700 1400
 Wire Wire Line
 	2750 1100 2700 1100
-$Comp
-L Device:D D193
-U 1 1 5C7879BB
-P 10200 2100
-F 0 "D193" V 10246 2021 50  0000 R CNN
-F 1 "D" V 10155 2021 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 10200 2100 50  0001 C CNN
-F 3 "~" H 10200 2100 50  0001 C CNN
-	1    10200 2100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	10200 2300 10200 2250
-Text Notes 4900 3350 0    50   ~ 0
-TODO:\n- Check if PWM on SK6812 GND works\n- Decide which diode footprint to use for vUSB\n- Add buttons\n- Add voltage sensing to vUSB + vBatt\n- Add lipo charging circuit\n- Add audio
+Text Notes 5650 3250 0    50   ~ 0
+TODO:\n- Add buttons\n- Add audio
 Text Notes 2750 6350 0    50   ~ 0
 I2S raw output 1
 Text Notes 2750 6450 0    50   ~ 0
@@ -760,78 +703,324 @@ Wire Wire Line
 	4650 1050 4650 1100
 $Comp
 L tp4056:TP4056 U?
-U 1 1 5C7A47D9
-P 5850 6500
-F 0 "U?" H 5850 6930 60  0000 C CNN
-F 1 "TP4056" H 5850 7036 60  0000 C CNN
-F 2 "" H 5850 6500 60  0000 C CNN
-F 3 "" H 5850 6500 60  0000 C CNN
-	1    5850 6500
-	-1   0    0    1   
-$EndComp
-Text GLabel 6400 6750 2    50   UnSpc ~ 0
-5V_USB
-Wire Wire Line
-	6400 6750 6350 6750
-Wire Wire Line
-	6350 6750 6350 6650
-Connection ~ 6350 6750
-$Comp
-L power:+BATT #PWR?
-U 1 1 5C7AC3F8
-P 5250 6750
-F 0 "#PWR?" H 5250 6600 50  0001 C CNN
-F 1 "+BATT" H 5265 6923 50  0000 C CNN
-F 2 "" H 5250 6750 50  0001 C CNN
-F 3 "" H 5250 6750 50  0001 C CNN
-	1    5250 6750
+U 1 1 5C7AE179
+P 9850 3450
+F 0 "U?" H 9850 3987 60  0000 C CNN
+F 1 "TP4056" H 9850 3881 60  0000 C CNN
+F 2 "" H 9850 3450 60  0000 C CNN
+F 3 "" H 9850 3450 60  0000 C CNN
+	1    9850 3450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5250 6750 5350 6750
-Wire Wire Line
-	5800 6100 5850 6100
-Wire Wire Line
-	5850 6100 5850 5900
-Connection ~ 5850 6100
-$Comp
-L Device:D D?
-U 1 1 5C7B6FA5
-P 6000 5900
-F 0 "D?" V 6046 5821 50  0000 R CNN
-F 1 "D" V 5955 5821 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 6000 5900 50  0001 C CNN
-F 3 "~" H 6000 5900 50  0001 C CNN
-	1    6000 5900
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:D D?
-U 1 1 5C7B7D97
-P 5700 5900
-F 0 "D?" V 5746 5821 50  0000 R CNN
-F 1 "D" V 5655 5821 50  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 5700 5900 50  0001 C CNN
-F 3 "~" H 5700 5900 50  0001 C CNN
-	1    5700 5900
-	1    0    0    1   
-$EndComp
-$Comp
-L power:-BATT #PWR?
-U 1 1 5C7BC2F3
-P 6350 5900
-F 0 "#PWR?" H 6350 5750 50  0001 C CNN
-F 1 "-BATT" H 6365 6073 50  0000 C CNN
-F 2 "" H 6350 5900 50  0001 C CNN
-F 3 "" H 6350 5900 50  0001 C CNN
-	1    6350 5900
-	1    0    0    -1  
-$EndComp
-Text GLabel 5400 5900 0    50   UnSpc ~ 0
+Text GLabel 10450 3500 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	5400 5900 5550 5900
+	10450 3500 10350 3500
+$Comp
+L Device:R R?
+U 1 1 5C7BCAAC
+P 10350 3750
+F 0 "R?" V 10250 3750 50  0000 C CNN
+F 1 "1k" V 10350 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10280 3750 50  0001 C CNN
+F 3 "~" H 10350 3750 50  0001 C CNN
+	1    10350 3750
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 3900 2    50   UnSpc ~ 0
+GND
 Wire Wire Line
-	6150 5900 6350 5900
-Connection ~ 5850 5900
+	10450 3900 10350 3900
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C7C0444
+P 10450 3150
+F 0 "#PWR?" H 10450 3000 50  0001 C CNN
+F 1 "+BATT" H 10465 3323 50  0000 C CNN
+F 2 "" H 10450 3150 50  0001 C CNN
+F 3 "" H 10450 3150 50  0001 C CNN
+	1    10450 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 3200 10350 3200
+Text GLabel 9300 2950 2    50   UnSpc ~ 0
+5V_USB
+Wire Wire Line
+	9250 3200 9350 3200
+$Comp
+L Device:LED D?
+U 1 1 5C7C6E07
+P 8800 3800
+F 0 "D?" H 8750 3700 50  0000 C CNN
+F 1 "RED" H 8900 3700 50  0000 C CNN
+F 2 "" H 8800 3800 50  0001 C CNN
+F 3 "~" H 8800 3800 50  0001 C CNN
+	1    8800 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5C7C714C
+P 8800 3900
+F 0 "D?" H 8750 4000 50  0000 C CNN
+F 1 "GREEN" H 8950 4000 50  0000 C CNN
+F 2 "" H 8800 3900 50  0001 C CNN
+F 3 "~" H 8800 3900 50  0001 C CNN
+	1    8800 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9250 3600 9350 3600
+Wire Wire Line
+	10450 3150 10450 3200
+$Comp
+L Device:R R?
+U 1 1 5C7DA34D
+P 9250 3750
+F 0 "R?" V 9150 3750 50  0000 C CNN
+F 1 "1k" V 9250 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9180 3750 50  0001 C CNN
+F 3 "~" H 9250 3750 50  0001 C CNN
+	1    9250 3750
+	-1   0    0    -1  
+$EndComp
+Text Notes 10450 3650 0    50   ~ 0
+Actually needs 1.2k
+$Comp
+L Device:R R?
+U 1 1 5C7EAB03
+P 9150 3650
+F 0 "R?" V 9050 3650 50  0000 C CNN
+F 1 "1k" V 9150 3650 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 9080 3650 50  0001 C CNN
+F 3 "~" H 9150 3650 50  0001 C CNN
+	1    9150 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 3500 9350 3500
+Wire Wire Line
+	8950 3800 9150 3800
+Wire Wire Line
+	9250 3900 8950 3900
+Text GLabel 8500 3800 0    50   UnSpc ~ 0
+5V_USB
+Wire Wire Line
+	8550 3800 8550 3900
+Wire Wire Line
+	8550 3900 8650 3900
+Wire Wire Line
+	8550 3800 8650 3800
+Wire Wire Line
+	8500 3800 8550 3800
+Connection ~ 8550 3800
+$Comp
+L Device:R R?
+U 1 1 5C806A57
+P 9000 3150
+F 0 "R?" V 8900 3150 50  0000 C CNN
+F 1 "10k" V 9000 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8930 3150 50  0001 C CNN
+F 3 "~" H 9000 3150 50  0001 C CNN
+	1    9000 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 3300 9000 3300
+Wire Wire Line
+	9000 3000 9000 2950
+Wire Wire Line
+	9250 2950 9300 2950
+Wire Wire Line
+	9250 2950 9250 3200
+Text GLabel 8300 3150 0    50   UnSpc ~ 0
+GND
+$Comp
+L Transistor_FET:DMN2050L Q?
+U 1 1 5C81B1EE
+P 8550 3250
+F 0 "Q?" V 8700 3050 50  0000 L CNN
+F 1 "AO3400 (A09T)" V 8800 2950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 3175 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 8550 3250 50  0001 L CNN
+	1    8550 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8350 3150 8300 3150
+Wire Wire Line
+	9000 2950 9250 2950
+Connection ~ 9250 2950
+Wire Wire Line
+	8750 3150 8750 3300
+Wire Wire Line
+	8750 3300 9000 3300
+Connection ~ 9000 3300
+Text GLabel 3200 6050 2    50   Output ~ 0
+CHARGE_ENABLE
+$Comp
+L Device:R R?
+U 1 1 5C853925
+P 3000 6050
+F 0 "R?" V 2950 5900 50  0000 C CNN
+F 1 "10k" V 3000 6050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2930 6050 50  0001 C CNN
+F 3 "~" H 3000 6050 50  0001 C CNN
+	1    3000 6050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3200 6050 3150 6050
+Wire Wire Line
+	2850 6050 2700 6050
+Text GLabel 8450 3450 0    50   Output ~ 0
+CHARGE_ENABLE
+Wire Wire Line
+	8450 3450 8550 3450
+Text Notes 7100 3000 0    98   ~ 0
+LiPo charging
+Wire Notes Line
+	8800 4150 8800 6550
+Text GLabel 3200 6850 2    50   Input ~ 0
+VUSB_SENSE
+Text GLabel 3200 6950 2    50   Input ~ 0
+VBAT_SENSE
+Wire Wire Line
+	2700 6850 3200 6850
+Wire Wire Line
+	3200 6950 2700 6950
+Text GLabel 5400 7100 0    50   Output ~ 0
+VUSB_SENSE
+Text GLabel 5650 6700 1    50   UnSpc ~ 0
+5V_USB
+$Comp
+L Device:R R?
+U 1 1 5C8A411C
+P 5650 6900
+F 0 "R?" V 5550 6900 50  0000 C CNN
+F 1 "10k" V 5650 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 6900 50  0001 C CNN
+F 3 "~" H 5650 6900 50  0001 C CNN
+	1    5650 6900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 6750 5650 6700
+$Comp
+L Device:R R?
+U 1 1 5C8A8EA2
+P 5650 7300
+F 0 "R?" V 5550 7300 50  0000 C CNN
+F 1 "10k" V 5650 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 7300 50  0001 C CNN
+F 3 "~" H 5650 7300 50  0001 C CNN
+	1    5650 7300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5650 7050 5650 7100
+Wire Wire Line
+	5400 7100 5500 7100
+Connection ~ 5650 7100
+Wire Wire Line
+	5650 7100 5650 7150
+Text GLabel 5650 7500 3    50   UnSpc ~ 0
+GND
+Text GLabel 5500 7500 3    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	5650 7500 5650 7450
+$Comp
+L Device:C C?
+U 1 1 5C8C2E73
+P 5500 7300
+F 0 "C?" V 5248 7300 50  0000 C CNN
+F 1 "100nF" V 5339 7300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5538 7150 50  0001 C CNN
+F 3 "~" H 5500 7300 50  0001 C CNN
+	1    5500 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 7150 5500 7100
+Connection ~ 5500 7100
+Wire Wire Line
+	5500 7100 5650 7100
+Wire Wire Line
+	5500 7450 5500 7500
+Text GLabel 6350 7100 2    50   Output ~ 0
+VBAT_SENSE
+$Comp
+L Device:R R?
+U 1 1 5C8CE6E8
+P 6100 6900
+F 0 "R?" V 6000 6900 50  0000 C CNN
+F 1 "10k" V 6100 6900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 6900 50  0001 C CNN
+F 3 "~" H 6100 6900 50  0001 C CNN
+	1    6100 6900
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 6750 6100 6700
+$Comp
+L Device:R R?
+U 1 1 5C8CE6F0
+P 6100 7300
+F 0 "R?" V 6000 7300 50  0000 C CNN
+F 1 "10k" V 6100 7300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6030 7300 50  0001 C CNN
+F 3 "~" H 6100 7300 50  0001 C CNN
+	1    6100 7300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6100 7050 6100 7100
+Wire Wire Line
+	6350 7100 6250 7100
+Connection ~ 6100 7100
+Wire Wire Line
+	6100 7100 6100 7150
+Text GLabel 6100 7500 3    50   UnSpc ~ 0
+GND
+Text GLabel 6250 7500 3    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	6100 7500 6100 7450
+$Comp
+L Device:C C?
+U 1 1 5C8CE6FE
+P 6250 7300
+F 0 "C?" V 5998 7300 50  0000 C CNN
+F 1 "100nF" V 6089 7300 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6288 7150 50  0001 C CNN
+F 3 "~" H 6250 7300 50  0001 C CNN
+	1    6250 7300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 7150 6250 7100
+Connection ~ 6250 7100
+Wire Wire Line
+	6250 7100 6100 7100
+Wire Wire Line
+	6250 7450 6250 7500
+$Comp
+L power:+BATT #PWR?
+U 1 1 5C8E046C
+P 6100 6700
+F 0 "#PWR?" H 6100 6550 50  0001 C CNN
+F 1 "+BATT" H 6115 6873 50  0000 C CNN
+F 2 "" H 6100 6700 50  0001 C CNN
+F 3 "" H 6100 6700 50  0001 C CNN
+	1    6100 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 4750 6150 0    98   ~ 0
+Voltage sensing
+Wire Notes Line
+	7000 5850 4600 5850
+Wire Notes Line
+	4600 5850 4600 7800
 $EndSCHEMATC
