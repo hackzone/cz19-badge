@@ -1160,44 +1160,44 @@ Wire Wire Line
 	2450 6150 3650 6150
 Wire Wire Line
 	2450 6250 3650 6250
-Text GLabel 2950 6550 2    50   Input ~ 0
+Text GLabel 2950 5350 2    50   Input ~ 0
 BTN_A
-Text GLabel 2950 6650 2    50   Input ~ 0
+Text GLabel 2950 5450 2    50   Input ~ 0
 BTN_B
 $Comp
 L Device:R R21
 U 1 1 5CA4E807
-P 3800 6550
-F 0 "R21" V 3750 6400 50  0000 C CNN
-F 1 "10k" V 3800 6550 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 6550 50  0001 C CNN
-F 3 "~" H 3800 6550 50  0001 C CNN
-	1    3800 6550
+P 3800 5350
+F 0 "R21" V 3750 5200 50  0000 C CNN
+F 1 "10k" V 3800 5350 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5350 50  0001 C CNN
+F 3 "~" H 3800 5350 50  0001 C CNN
+	1    3800 5350
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R22
 U 1 1 5CA4E80E
-P 3800 6650
-F 0 "R22" V 3750 6500 50  0000 C CNN
-F 1 "10k" V 3800 6650 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 6650 50  0001 C CNN
-F 3 "~" H 3800 6650 50  0001 C CNN
-	1    3800 6650
+P 3800 5450
+F 0 "R22" V 3750 5300 50  0000 C CNN
+F 1 "10k" V 3800 5450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5450 50  0001 C CNN
+F 3 "~" H 3800 5450 50  0001 C CNN
+	1    3800 5450
 	0    1    1    0   
 $EndComp
-Text GLabel 4000 6550 2    50   UnSpc ~ 0
+Text GLabel 4000 5350 2    50   UnSpc ~ 0
 3V3
 Wire Wire Line
-	4000 6550 3950 6550
-Text GLabel 4000 6650 2    50   UnSpc ~ 0
+	4000 5350 3950 5350
+Text GLabel 4000 5450 2    50   UnSpc ~ 0
 3V3
 Wire Wire Line
-	4000 6650 3950 6650
+	4000 5450 3950 5450
 Wire Wire Line
-	2450 6550 3650 6550
+	2450 5350 3650 5350
 Wire Wire Line
-	2450 6650 3650 6650
+	2450 5450 3650 5450
 Text GLabel 2950 6350 2    50   Input ~ 0
 DAC1
 Text GLabel 2950 6450 2    50   Input ~ 0
@@ -1221,7 +1221,7 @@ Text GLabel 6700 3150 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	6700 3150 6600 3150
-Text GLabel 6100 3150 0    50   Input ~ 0
+Text GLabel 6100 3150 0    50   Output ~ 0
 BTN_UP
 Wire Wire Line
 	6100 3150 6200 3150
@@ -1240,7 +1240,7 @@ Text GLabel 6700 3500 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	6700 3500 6600 3500
-Text GLabel 6100 3500 0    50   Input ~ 0
+Text GLabel 6100 3500 0    50   Output ~ 0
 BTN_DOWN
 Wire Wire Line
 	6100 3500 6200 3500
@@ -1259,7 +1259,7 @@ Text GLabel 6700 3850 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	6700 3850 6600 3850
-Text GLabel 6100 3850 0    50   Input ~ 0
+Text GLabel 6100 3850 0    50   Output ~ 0
 BTN_LEFT
 Wire Wire Line
 	6100 3850 6200 3850
@@ -1278,7 +1278,7 @@ Text GLabel 6700 4200 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	6700 4200 6600 4200
-Text GLabel 6100 4200 0    50   Input ~ 0
+Text GLabel 6100 4200 0    50   Output ~ 0
 BTN_RIGHT
 Wire Wire Line
 	6100 4200 6200 4200
@@ -1297,7 +1297,7 @@ Text GLabel 6700 4550 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	6700 4550 6600 4550
-Text GLabel 6100 4550 0    50   Input ~ 0
+Text GLabel 6100 4550 0    50   Output ~ 0
 BTN_A
 Wire Wire Line
 	6100 4550 6200 4550
@@ -1316,7 +1316,7 @@ Text GLabel 6700 4900 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	6700 4900 6600 4900
-Text GLabel 6100 4900 0    50   Input ~ 0
+Text GLabel 6100 4900 0    50   Output ~ 0
 BTN_B
 Wire Wire Line
 	6100 4900 6200 4900
@@ -1327,4 +1327,32 @@ Wire Wire Line
 Wire Wire Line
 	9850 3850 9900 3850
 Connection ~ 9850 3850
+Text GLabel 2950 5050 2    50   Input ~ 0
+TOUCH1
+Wire Wire Line
+	2950 5050 2450 5050
+$Comp
+L Connector_Generic:Conn_01x01 J2
+U 1 1 5CB55011
+P 4950 3150
+F 0 "J2" H 5030 3192 50  0000 L CNN
+F 1 "Conn_01x01" H 5030 3101 50  0000 L CNN
+F 2 "" H 4950 3150 50  0001 C CNN
+F 3 "~" H 4950 3150 50  0001 C CNN
+	1    4950 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 3150 0    50   Output ~ 0
+TOUCH1
+Text GLabel 9150 1050 2    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	8750 1050 8750 1100
+Wire Wire Line
+	9150 1050 8750 1050
+NoConn ~ 2450 6550
+NoConn ~ 2450 6650
+NoConn ~ 2450 6750
+NoConn ~ 1250 4850
+NoConn ~ 1250 4950
 $EndSCHEMATC
