@@ -282,7 +282,7 @@ Connection ~ 6900 1800
 Wire Wire Line
 	6900 1800 7300 1800
 Text Notes 5500 1400 0    50   ~ 0
-Jumpers are for prototype so\nwe won’t have to use the transistors
+Jumpers are for prototype so\nwe won’t have to use the fets
 $Comp
 L Regulator_Linear:AMS1117 U2
 U 1 1 5C73D096
@@ -1355,4 +1355,66 @@ NoConn ~ 2450 6650
 NoConn ~ 2450 6750
 NoConn ~ 1250 4850
 NoConn ~ 1250 4950
+$Comp
+L Connector_Generic:Conn_01x01 J3
+U 1 1 5C7E3260
+P 8000 5850
+F 0 "J3" H 8080 5892 50  0000 L CNN
+F 1 "Hook1" H 8080 5801 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8000 5850 50  0001 C CNN
+F 3 "~" H 8000 5850 50  0001 C CNN
+	1    8000 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 5850 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	7750 5850 7800 5850
+$Comp
+L Connector_Generic:Conn_01x01 J4
+U 1 1 5C80329F
+P 8000 6050
+F 0 "J4" H 8080 6092 50  0000 L CNN
+F 1 "Hook2" H 8080 6001 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8000 6050 50  0001 C CNN
+F 3 "~" H 8000 6050 50  0001 C CNN
+	1    8000 6050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 6050 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	7750 6050 7800 6050
+Text Notes 7100 5650 0    98   ~ 0
+Lanyard hooks
+$Comp
+L Connector_Generic:Conn_01x01 J5
+U 1 1 5C82368A
+P 8000 6250
+F 0 "J5" H 8080 6292 50  0000 L CNN
+F 1 "Hook3" H 8080 6201 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8000 6250 50  0001 C CNN
+F 3 "~" H 8000 6250 50  0001 C CNN
+	1    8000 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 6250 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	7750 6250 7800 6250
+$Comp
+L Connector_Generic:Conn_01x01 J6
+U 1 1 5C82DC9B
+P 8000 6450
+F 0 "J6" H 8080 6492 50  0000 L CNN
+F 1 "Hook4" H 8080 6401 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8000 6450 50  0001 C CNN
+F 3 "~" H 8000 6450 50  0001 C CNN
+	1    8000 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 6450 0    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	7750 6450 7800 6450
 $EndSCHEMATC
