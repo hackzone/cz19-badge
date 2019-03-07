@@ -14,20 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1050 900  1650 800 
-U 5C6C6B0C
-F0 "LEDs" 50
-F1 "LEDs.sch" 50
-F2 "LEDS_IN" I L 1050 1100 50 
-F3 "LEDS_OUT" I L 1050 1400 50 
-F4 "VCC" I R 2700 1100 50 
-F5 "LGND" I R 2700 1400 50 
-$EndSheet
-Text GLabel 2750 1100 2    50   UnSpc ~ 0
-VCC
-Text GLabel 4050 2000 2    50   UnSpc ~ 0
-GND
 $Comp
 L RF_Module:ESP32-WROOM-32D U3
 U 1 1 5C6EF884
@@ -90,20 +76,18 @@ Wire Wire Line
 $Comp
 L Device:R R6
 U 1 1 5C6F13F0
-P 2750 4850
-F 0 "R6" V 2700 4700 50  0000 C CNN
-F 1 "10k" V 2750 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 4850 50  0001 C CNN
-F 3 "~" H 2750 4850 50  0001 C CNN
-	1    2750 4850
+P 3800 4850
+F 0 "R6" V 3750 4700 50  0000 C CNN
+F 1 "10k" V 3800 4850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 4850 50  0001 C CNN
+F 3 "~" H 3800 4850 50  0001 C CNN
+	1    3800 4850
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2600 4850 2450 4850
-Text GLabel 2950 4850 2    50   UnSpc ~ 0
+Text GLabel 4000 4850 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	2950 4850 2900 4850
+	4000 4850 3950 4850
 NoConn ~ 2450 5250
 NoConn ~ 2450 5550
 Text GLabel 2950 4750 2    50   Output ~ 0
@@ -121,22 +105,8 @@ Hides bootloader output when driven LOW
 NoConn ~ 2450 5150
 Text Notes 2500 5200 0    50   ~ 0
 Changes SDIO timing when driven LOW
-Text Notes 3150 4900 0    50   ~ 0
-Enables serial bootloader when ESP_FLASH is driven LOW
-Text GLabel 2950 5850 2    50   Output ~ 0
-LEDS_ENABLE
-Text GLabel 2950 5950 2    50   Output ~ 0
-LEDS_IN
-Wire Wire Line
-	4050 2000 4000 2000
-Text GLabel 900  1100 0    50   Input ~ 0
-LEDS_IN
-Wire Wire Line
-	900  1100 1050 1100
-Text GLabel 900  1400 0    50   Output ~ 0
-LEDS_OUT
-Wire Wire Line
-	900  1400 1050 1400
+Text Notes 4200 4900 0    50   ~ 0
+Enables serial bootloader when\nESP_FLASH is driven LOW
 $Comp
 L Interface_USB:CH340G U1
 U 1 1 5C797759
@@ -197,10 +167,6 @@ GND
 Wire Wire Line
 	10500 1200 10500 1300
 Connection ~ 10500 1300
-Wire Wire Line
-	6850 900  6900 900 
-Wire Wire Line
-	6850 1800 6900 1800
 $Comp
 L Device:R R1
 U 1 1 5C72BD16
@@ -245,44 +211,10 @@ Wire Wire Line
 Wire Wire Line
 	8000 1400 8000 1600
 Connection ~ 8000 1400
-$Comp
-L Jumper:SolderJumper_2_Open JP5
-U 1 1 5C7325F3
-P 7050 1300
-F 0 "JP5" H 7050 1505 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6800 1400 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7050 1300 50  0001 C CNN
-F 3 "~" H 7050 1300 50  0001 C CNN
-	1    7050 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Open JP6
-U 1 1 5C73410B
-P 7050 1400
-F 0 "JP6" H 7050 1200 50  0000 C CNN
-F 1 "SolderJumper_2_Open" H 6800 1300 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 7050 1400 50  0001 C CNN
-F 3 "~" H 7050 1400 50  0001 C CNN
-	1    7050 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8000 1400 8350 1400
 Wire Wire Line
 	8000 1300 8350 1300
-Wire Wire Line
-	6900 1300 6900 900 
-Connection ~ 6900 900 
-Wire Wire Line
-	6900 900  7300 900 
-Wire Wire Line
-	6900 1400 6900 1800
-Connection ~ 6900 1800
-Wire Wire Line
-	6900 1800 7300 1800
-Text Notes 5500 1400 0    50   ~ 0
-Jumpers are for prototype so\nwe won’t have to use the fets
 $Comp
 L Regulator_Linear:AMS1117 U2
 U 1 1 5C73D096
@@ -348,90 +280,27 @@ L Transistor_FET:DMN2050L Q2
 U 1 1 5C79C987
 P 7400 1100
 F 0 "Q2" H 7250 1200 50  0000 L CNN
-F 1 "AO3400 (A09T)" H 7200 1350 50  0000 L CNN
+F 1 "AO3400 (A09T)" H 7200 850 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 1025 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 7400 1100 50  0001 L CNN
 	1    7400 1100
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7200 1300 7300 1300
-Connection ~ 7300 1300
-Wire Wire Line
 	7300 1300 7700 1300
-Wire Wire Line
-	7200 1400 7300 1400
 $Comp
 L Transistor_FET:DMN2050L Q4
 U 1 1 5C79E677
 P 7400 1600
 F 0 "Q4" H 7250 1700 50  0000 L CNN
-F 1 "AO3400 (A09T)" H 7200 1850 50  0000 L CNN
+F 1 "AO3400 (A09T)" H 7200 1350 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 1525 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 7400 1600 50  0001 L CNN
 	1    7400 1600
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
-Connection ~ 7300 1400
 Wire Wire Line
 	7300 1400 7650 1400
-$Comp
-L Transistor_FET:DMN2050L Q5
-U 1 1 5C7A070A
-P 3800 2100
-F 0 "Q5" V 3950 1900 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 4050 1700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 2025 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 3800 2100 50  0001 L CNN
-	1    3800 2100
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4050 1400 2    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	4050 1400 4000 1400
-Text GLabel 4850 1400 3    50   Input ~ 0
-LEDS_ENABLE
-$Comp
-L Transistor_FET:DMN2050L Q3
-U 1 1 5C7A59C7
-P 3800 1500
-F 0 "Q3" V 3950 1300 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 4050 1100 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 1425 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 3800 1500 50  0001 L CNN
-	1    3800 1500
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4050 800  2    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	4050 800  4000 800 
-$Comp
-L Transistor_FET:DMN2050L Q1
-U 1 1 5C7A6AC3
-P 3800 900
-F 0 "Q1" V 3950 700 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 4050 500 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 4000 825 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 3800 900 50  0001 L CNN
-	1    3800 900 
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3600 1400
-Wire Wire Line
-	3600 1400 3600 2000
-Wire Wire Line
-	3600 800  3600 1400
-Wire Wire Line
-	4450 1700 3800 1700
-Wire Wire Line
-	4450 1100 3800 1100
-Wire Wire Line
-	4450 1700 4450 2300
-Wire Wire Line
-	4450 2300 3800 2300
-Connection ~ 4450 1700
 $Comp
 L power:+BATT #PWR01
 U 1 1 5C7B5CB3
@@ -558,36 +427,6 @@ NoConn ~ 1250 6050
 NoConn ~ 1250 6150
 NoConn ~ 1250 6250
 NoConn ~ 1250 6350
-$Comp
-L Device:R R8
-U 1 1 5C76D27F
-P 2750 5850
-F 0 "R8" V 2700 5700 50  0000 C CNN
-F 1 "10k" V 2750 5850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 5850 50  0001 C CNN
-F 3 "~" H 2750 5850 50  0001 C CNN
-	1    2750 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 5C76D3B2
-P 2750 5950
-F 0 "R9" V 2700 5800 50  0000 C CNN
-F 1 "10k" V 2750 5950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 5950 50  0001 C CNN
-F 3 "~" H 2750 5950 50  0001 C CNN
-	1    2750 5950
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2900 5950 2950 5950
-Wire Wire Line
-	2950 5850 2900 5850
-Wire Wire Line
-	2600 5850 2450 5850
-Wire Wire Line
-	2450 5950 2600 5950
 Wire Notes Line
 	5000 450  5000 2750
 Wire Notes Line
@@ -657,43 +496,8 @@ Text GLabel 9150 1700 2    50   BiDi ~ 0
 USB_DN
 Text GLabel 9150 1800 2    50   BiDi ~ 0
 USB_DP
-Text GLabel 2750 1400 2    50   UnSpc ~ 0
-LED_GND
-Text GLabel 3550 1400 0    50   UnSpc ~ 0
-LED_GND
-Wire Wire Line
-	3550 1400 3600 1400
-Wire Wire Line
-	4450 1100 4450 1400
-Wire Wire Line
-	4450 1400 4650 1400
-Connection ~ 4450 1400
-Wire Wire Line
-	4450 1400 4450 1700
-Wire Wire Line
-	2750 1400 2700 1400
-Wire Wire Line
-	2750 1100 2700 1100
 Text Notes 2300 3200 0    50   ~ 0
 TODO:\n- Add audio
-$Comp
-L Device:R R2
-U 1 1 5C797B8C
-P 4650 1250
-F 0 "R2" V 4600 1100 50  0000 C CNN
-F 1 "10k" V 4650 1250 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 4580 1250 50  0001 C CNN
-F 3 "~" H 4650 1250 50  0001 C CNN
-	1    4650 1250
-	-1   0    0    1   
-$EndComp
-Connection ~ 4650 1400
-Wire Wire Line
-	4650 1400 4850 1400
-Text GLabel 4650 1050 1    50   UnSpc ~ 0
-GND
-Wire Wire Line
-	4650 1050 4650 1100
 $Comp
 L tp4056:TP4056 U4
 U 1 1 5C7AE179
@@ -838,7 +642,7 @@ F 1 "AO3400 (A09T)" V 8800 2950 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 8750 3175 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 8550 3250 50  0001 L CNN
 	1    8550 3250
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Wire Wire Line
 	8350 3150 8300 3150
@@ -1200,12 +1004,8 @@ Wire Wire Line
 	2450 5450 3650 5450
 Text GLabel 2950 6350 2    50   Input ~ 0
 DAC1
-Text GLabel 2950 6450 2    50   Input ~ 0
-DAC2
 Wire Wire Line
 	2950 6350 2450 6350
-Wire Wire Line
-	2450 6450 2950 6450
 $Comp
 L Switch:SW_Push SW1
 U 1 1 5CA7C9B9
@@ -1350,7 +1150,6 @@ Wire Wire Line
 	8750 1050 8750 1100
 Wire Wire Line
 	9150 1050 8750 1050
-NoConn ~ 2450 6550
 NoConn ~ 2450 6650
 NoConn ~ 2450 6750
 NoConn ~ 1250 4850
@@ -1387,34 +1186,110 @@ Wire Wire Line
 	7750 6050 7800 6050
 Text Notes 7100 5650 0    98   ~ 0
 Lanyard hooks
-$Comp
-L Connector_Generic:Conn_01x01 J5
-U 1 1 5C82368A
-P 8000 6250
-F 0 "J5" H 8080 6292 50  0000 L CNN
-F 1 "Hook3" H 8080 6201 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8000 6250 50  0001 C CNN
-F 3 "~" H 8000 6250 50  0001 C CNN
-	1    8000 6250
-	1    0    0    -1  
-$EndComp
-Text GLabel 7750 6250 0    50   UnSpc ~ 0
+Wire Wire Line
+	6850 900  7300 900 
+Wire Wire Line
+	6850 1800 7300 1800
+$Sheet
+S 1050 900  1650 800 
+U 5C6C6B0C
+F0 "LEDs" 50
+F1 "LEDs.sch" 50
+F2 "GND" I L 1050 1600 50 
+F3 "VCC" I R 2700 1500 50 
+F4 "COL_CLK" I R 2700 1200 50 
+F5 "~COL_EN" I R 2700 1100 50 
+F6 "COL_DATA" I R 2700 1300 50 
+F7 "PWM_EN" I L 1050 1100 50 
+F8 "SDA" I L 1050 1200 50 
+F9 "SCL" I L 1050 1300 50 
+F10 "3V3" I R 2700 1600 50 
+$EndSheet
+Text GLabel 950  1600 0    50   UnSpc ~ 0
 GND
 Wire Wire Line
-	7750 6250 7800 6250
-$Comp
-L Connector_Generic:Conn_01x01 J6
-U 1 1 5C82DC9B
-P 8000 6450
-F 0 "J6" H 8080 6492 50  0000 L CNN
-F 1 "Hook4" H 8080 6401 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Keystone_5019_Minature" H 8000 6450 50  0001 C CNN
-F 3 "~" H 8000 6450 50  0001 C CNN
-	1    8000 6450
-	1    0    0    -1  
-$EndComp
-Text GLabel 7750 6450 0    50   UnSpc ~ 0
-GND
+	950  1600 1050 1600
+Text GLabel 2800 1600 2    50   UnSpc ~ 0
+3V3
 Wire Wire Line
-	7750 6450 7800 6450
+	2800 1600 2700 1600
+Text GLabel 2800 1500 2    50   UnSpc ~ 0
+VCC
+Wire Wire Line
+	2800 1500 2700 1500
+NoConn ~ 1050 1100
+Text GLabel 2950 5850 2    50   BiDi ~ 0
+SDA
+Text GLabel 2950 5950 2    50   Output ~ 0
+SCL
+$Comp
+L Device:R R2
+U 1 1 676430C5
+P 3800 5850
+F 0 "R2" V 3750 5700 50  0000 C CNN
+F 1 "10k" V 3800 5850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5850 50  0001 C CNN
+F 3 "~" H 3800 5850 50  0001 C CNN
+	1    3800 5850
+	0    1    1    0   
+$EndComp
+Text GLabel 4000 5850 2    50   UnSpc ~ 0
+3V3
+Wire Wire Line
+	4000 5850 3950 5850
+Wire Wire Line
+	2450 5850 3650 5850
+$Comp
+L Device:R R8
+U 1 1 6764B537
+P 3800 5950
+F 0 "R8" V 3750 5800 50  0000 C CNN
+F 1 "10k" V 3800 5950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5950 50  0001 C CNN
+F 3 "~" H 3800 5950 50  0001 C CNN
+	1    3800 5950
+	0    1    1    0   
+$EndComp
+Text GLabel 4000 5950 2    50   UnSpc ~ 0
+3V3
+Wire Wire Line
+	4000 5950 3950 5950
+Wire Wire Line
+	2450 5950 3650 5950
+Text Notes 4400 5800 0    50   ~ 0
+i2c pullups likely need\nto be 2-4.7kOhm instead
+Wire Notes Line
+	4200 5900 4300 5900
+Wire Notes Line
+	4300 5900 4300 5700
+Wire Notes Line
+	4300 5700 4350 5700
+Text GLabel 1050 1200 0    50   BiDi ~ 0
+SDA
+Text GLabel 1050 1300 0    50   Input ~ 0
+SCL
+Text GLabel 2950 4850 2    50   Output ~ 0
+COL_DATA
+Wire Wire Line
+	2450 4850 3650 4850
+Text GLabel 2950 6450 2    50   Output ~ 0
+COL_CLK
+Wire Wire Line
+	2950 6450 2450 6450
+Text GLabel 2950 6550 2    50   Output ~ 0
+COL_EN
+Wire Wire Line
+	2450 6550 2950 6550
+Text GLabel 2800 1100 2    50   Input ~ 0
+COL_EN
+Text GLabel 2800 1200 2    50   Input ~ 0
+COL_CLK
+Text GLabel 2800 1300 2    50   Input ~ 0
+COL_DATA
+Wire Wire Line
+	2800 1100 2700 1100
+Wire Wire Line
+	2800 1200 2700 1200
+Wire Wire Line
+	2700 1300 2800 1300
 $EndSCHEMATC
