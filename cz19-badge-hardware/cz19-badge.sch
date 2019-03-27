@@ -284,7 +284,7 @@ F 1 "AO3400 (A09T)" H 7200 850 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 1025 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 7400 1100 50  0001 L CNN
 	1    7400 1100
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	7300 1300 7700 1300
@@ -297,7 +297,7 @@ F 1 "AO3400 (A09T)" H 7200 1350 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7600 1525 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 7400 1600 50  0001 L CNN
 	1    7400 1600
-	-1   0    0    -1  
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	7300 1400 7650 1400
