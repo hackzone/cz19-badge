@@ -1,5 +1,7 @@
 (sym_lib_table
   (lib (name tp4056)(type Legacy)(uri ${KIPRJMOD}/libs/tp4056.lib)(options "")(descr ""))
   (lib (name led_rgba)(type Legacy)(uri ${KIPRJMOD}/libs/led_rgba.lib)(options "")(descr ""))
-  (lib (name LP5024)(type Legacy)(uri /Users/tom/Git/cz19-badge/cz19-badge-hardware/libs/LP5024.lib)(options "")(descr ""))
+  (lib (name LP5024)(type Legacy)(uri ${KIPRJMOD}/libs/LP5024.lib)(options "")(descr ""))
+  (lib (name rgbchip)(type Legacy)(uri ${KIPRJMOD}/libs/rgbchip.lib)(options "")(descr ""))
+  (lib (name tm-kicad-lib)(type Legacy)(uri ${KIPRJMOD}/libs/tm-kicad-lib.lib)(options "")(descr ""))
 )
