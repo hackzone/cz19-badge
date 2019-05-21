@@ -8517,7 +8517,6 @@ Text GLabel 4600 17050 3    50   Input ~ 0
 OE
 Wire Wire Line
 	4600 17050 4600 16950
-NoConn ~ 4600 16250
 Text GLabel 4500 16200 1    50   UnSpc ~ 0
 GND
 Text GLabel 5200 16200 1    50   UnSpc ~ 0
@@ -8889,4 +8888,8 @@ Wire Wire Line
 Connection ~ 29700 8800
 Wire Wire Line
 	29700 8800 29700 8850
+Text GLabel 4600 16200 1    50   UnSpc ~ 0
+VCC
+Wire Wire Line
+	4600 16200 4600 16250
 $EndSCHEMATC

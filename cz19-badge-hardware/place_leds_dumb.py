@@ -10,7 +10,7 @@ width, height = 32, 8
 
 # All in mm
 x_start, y_start = 20, -150
-x_diff, y_diff = 5, 5
+x_diff, y_diff = 6, 6
 
 def by_reference(module):
     return int(module.GetReference()[1:])
