@@ -88,7 +88,6 @@ Text GLabel 4000 4850 2    50   UnSpc ~ 0
 GND
 Wire Wire Line
 	4000 4850 3950 4850
-NoConn ~ 2450 5250
 Text GLabel 2950 4750 2    50   Output ~ 0
 ESP_TX
 Text GLabel 2950 4950 2    50   Input ~ 0
@@ -1258,7 +1257,7 @@ Wire Wire Line
 	950  4850 1250 4850
 Wire Wire Line
 	950  4950 1250 4950
-Text Notes 2500 5300 0    50   ~ 0
+Text Notes 4200 5300 0    50   ~ 0
 Sets VDD_SDIO to 1.8V when driven HIGH
 Wire Wire Line
 	2950 5650 2450 5650
@@ -1331,4 +1330,31 @@ Wire Wire Line
 	7250 4850 7350 4850
 Wire Wire Line
 	8550 4650 8450 4650
+$Comp
+L Device:R R33
+U 1 1 5CEB3DA9
+P 3800 5250
+F 0 "R33" V 3750 5100 50  0000 C CNN
+F 1 "10k" V 3800 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 5250 50  0001 C CNN
+F 3 "~" H 3800 5250 50  0001 C CNN
+	1    3800 5250
+	0    1    1    0   
+$EndComp
+Text GLabel 4000 5250 2    50   UnSpc ~ 0
+GND
+Wire Wire Line
+	4000 5250 3950 5250
+Wire Wire Line
+	2450 5250 3650 5250
+Text Notes 3050 4350 0    50   ~ 0
+Used by HUB75 driver as PWM source
+Wire Notes Line
+	2750 4850 2750 4300
+Wire Notes Line
+	2750 4300 3000 4300
+Wire Notes Line
+	2800 4650 2800 4350
+Wire Notes Line
+	2800 4350 3000 4350
 $EndSCHEMATC
