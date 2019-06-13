@@ -312,7 +312,7 @@ F 1 "AO3400 (A09T)" V 10400 5700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 6025 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 6100 50  0001 L CNN
 	1    10150 6100
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L Transistor_FET:DMN2050L Q5
@@ -323,7 +323,7 @@ F 1 "AO3400 (A09T)" V 10400 5200 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 5525 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 5600 50  0001 L CNN
 	1    10150 5600
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 9850 5000 0    50   UnSpc ~ 0
 GND
@@ -336,7 +336,7 @@ F 1 "AO3400 (A09T)" V 10400 4700 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 5025 50  0001 L CIN
 F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 5100 50  0001 L CNN
 	1    10150 5100
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 Text GLabel 9850 5500 0    50   UnSpc ~ 0
 GND
@@ -609,7 +609,7 @@ Wire Wire Line
 	9250 2950 9300 2950
 Wire Wire Line
 	9250 2950 9250 3200
-Text GLabel 8300 3150 0    50   UnSpc ~ 0
+Text GLabel 7950 3150 0    50   UnSpc ~ 0
 GND
 $Comp
 L Transistor_FET:DMN2050L Q3
@@ -623,7 +623,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 8550 3250 50  0001 L CNN
 	0    1    -1   0   
 $EndComp
 Wire Wire Line
-	8350 3150 8300 3150
+	8350 3150 8200 3150
 Wire Wire Line
 	9000 2950 9250 2950
 Connection ~ 9250 2950
@@ -633,7 +633,7 @@ Wire Wire Line
 	8750 3300 9000 3300
 Connection ~ 9000 3300
 Text GLabel 2950 6250 2    50   Output ~ 0
-CHARGE_ENABLE
+~CHARGE_ENABLE
 $Comp
 L Device:R R24
 U 1 1 5C853925
@@ -649,10 +649,10 @@ Wire Wire Line
 	2950 6250 2900 6250
 Wire Wire Line
 	2600 6250 2450 6250
-Text GLabel 8450 3450 0    50   Output ~ 0
-CHARGE_ENABLE
+Text GLabel 7950 3450 0    50   Output ~ 0
+~CHARGE_ENABLE
 Wire Wire Line
-	8450 3450 8550 3450
+	7950 3450 8200 3450
 Text Notes 7100 3000 0    98   ~ 0
 LiPo charging
 Wire Notes Line
@@ -1422,4 +1422,65 @@ Text GLabel 8100 5650 2    50   UnSpc ~ 0
 VCC
 Wire Wire Line
 	8100 5650 8050 5650
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 5D64A583
+P 4000 1950
+F 0 "FID1" H 4085 1996 50  0000 L CNN
+F 1 "Fiducial" H 4085 1905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4000 1950 50  0001 C CNN
+F 3 "~" H 4000 1950 50  0001 C CNN
+	1    4000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID2
+U 1 1 5D64B58D
+P 4550 1950
+F 0 "FID2" H 4635 1996 50  0000 L CNN
+F 1 "Fiducial" H 4635 1905 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4550 1950 50  0001 C CNN
+F 3 "~" H 4550 1950 50  0001 C CNN
+	1    4550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID4
+U 1 1 5D64B742
+P 4550 2300
+F 0 "FID4" H 4635 2346 50  0000 L CNN
+F 1 "Fiducial" H 4635 2255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4550 2300 50  0001 C CNN
+F 3 "~" H 4550 2300 50  0001 C CNN
+	1    4550 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID3
+U 1 1 5D64B883
+P 4000 2300
+F 0 "FID3" H 4085 2346 50  0000 L CNN
+F 1 "Fiducial" H 4085 2255 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4000 2300 50  0001 C CNN
+F 3 "~" H 4000 2300 50  0001 C CNN
+	1    4000 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R34
+U 1 1 5D66698A
+P 8200 3300
+F 0 "R34" V 8100 3300 50  0000 C CNN
+F 1 "10k" V 8200 3300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8130 3300 50  0001 C CNN
+F 3 "~" H 8200 3300 50  0001 C CNN
+	1    8200 3300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8200 3150
+Wire Wire Line
+	8200 3150 7950 3150
+Connection ~ 8200 3450
+Wire Wire Line
+	8200 3450 8550 3450
 $EndSCHEMATC
