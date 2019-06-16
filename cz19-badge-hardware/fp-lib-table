@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name LiPoHolder)(type KiCad)(uri ${KIPRJMOD}/libs/LiPoHolder.pretty)(options "")(descr ""))
   (lib (name tm-kicad-lib)(type KiCad)(uri ${KIPRJMOD}/libs/tm-kicad-lib.pretty)(options "")(descr ""))
+  (lib (name gfx)(type KiCad)(uri ${KIPRJMOD}/gfx)(options "")(descr ""))
 )

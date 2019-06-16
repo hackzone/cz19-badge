@@ -304,17 +304,6 @@ F 3 "" H 10800 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:DMN2050L Q6
-U 1 1 5C7B6A21
-P 10150 6100
-F 0 "Q6" V 10300 5900 50  0000 L CNN
-F 1 "AO3400 (A09T)" V 10400 5700 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10350 6025 50  0001 L CIN
-F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 6100 50  0001 L CNN
-	1    10150 6100
-	0    1    -1   0   
-$EndComp
-$Comp
 L Transistor_FET:DMN2050L Q5
 U 1 1 5C7B6A2B
 P 10150 5600
@@ -326,7 +315,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 5600 50  0001 L CNN
 	0    1    -1   0   
 $EndComp
 Text GLabel 9850 5000 0    50   UnSpc ~ 0
-GND
+GND_PROT
 $Comp
 L Transistor_FET:DMN2050L Q4
 U 1 1 5C7B6A34
@@ -339,9 +328,7 @@ F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 10150 5100 50  0001 L CNN
 	0    1    -1   0   
 $EndComp
 Text GLabel 9850 5500 0    50   UnSpc ~ 0
-GND
-Text GLabel 9850 6000 0    50   UnSpc ~ 0
-GND
+GND_PROT
 Wire Wire Line
 	10350 5000 10600 5000
 Wire Wire Line
@@ -352,17 +339,9 @@ Wire Wire Line
 	10600 5500 10350 5500
 Connection ~ 10600 5500
 Wire Wire Line
-	10350 6000 10600 6000
-Wire Wire Line
-	10600 6000 10600 5500
-Wire Wire Line
 	9950 5000 9850 5000
 Wire Wire Line
 	9950 5500 9850 5500
-Wire Wire Line
-	9950 6000 9850 6000
-Wire Wire Line
-	9400 6300 10150 6300
 Wire Wire Line
 	10150 5300 9600 5300
 Wire Wire Line
@@ -373,9 +352,6 @@ Wire Wire Line
 	9400 5500 9400 5800
 Wire Wire Line
 	10150 5800 9400 5800
-Connection ~ 9400 5800
-Wire Wire Line
-	9400 5800 9400 6300
 Text GLabel 9300 4650 0    50   UnSpc ~ 0
 VCC
 $Comp
@@ -408,7 +384,7 @@ NoConn ~ 1250 6150
 NoConn ~ 1250 6250
 NoConn ~ 1250 6350
 Wire Notes Line
-	5000 450  5000 2750
+	6050 450  6050 2750
 Wire Notes Line
 	7000 6550 7000 2750
 Wire Notes Line
@@ -1389,8 +1365,8 @@ L Device:C C5
 U 1 1 5CEB1B5A
 P 7900 5250
 F 0 "C5" V 7648 5250 50  0000 C CNN
-F 1 "C" V 7739 5250 50  0000 C CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 7938 5100 50  0001 C CNN
+F 1 "10uf" V 7739 5250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7938 5100 50  0001 C CNN
 F 3 "~" H 7900 5250 50  0001 C CNN
 	1    7900 5250
 	0    1    1    0   
@@ -1408,7 +1384,7 @@ L Device:C C6
 U 1 1 5CED8470
 P 7900 5650
 F 0 "C6" V 7648 5650 50  0000 C CNN
-F 1 "C" V 7739 5650 50  0000 C CNN
+F 1 "100uf" V 7739 5650 50  0000 C CNN
 F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 7938 5500 50  0001 C CNN
 F 3 "~" H 7900 5650 50  0001 C CNN
 	1    7900 5650
@@ -1425,45 +1401,45 @@ Wire Wire Line
 $Comp
 L Mechanical:Fiducial FID1
 U 1 1 5D64A583
-P 4000 1950
-F 0 "FID1" H 4085 1996 50  0000 L CNN
-F 1 "Fiducial" H 4085 1905 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4000 1950 50  0001 C CNN
-F 3 "~" H 4000 1950 50  0001 C CNN
-	1    4000 1950
+P 2250 2100
+F 0 "FID1" H 2335 2146 50  0000 L CNN
+F 1 "Fiducial" H 2335 2055 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2250 2100 50  0001 C CNN
+F 3 "~" H 2250 2100 50  0001 C CNN
+	1    2250 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID2
 U 1 1 5D64B58D
-P 4550 1950
-F 0 "FID2" H 4635 1996 50  0000 L CNN
-F 1 "Fiducial" H 4635 1905 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4550 1950 50  0001 C CNN
-F 3 "~" H 4550 1950 50  0001 C CNN
-	1    4550 1950
+P 2800 2100
+F 0 "FID2" H 2885 2146 50  0000 L CNN
+F 1 "Fiducial" H 2885 2055 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2800 2100 50  0001 C CNN
+F 3 "~" H 2800 2100 50  0001 C CNN
+	1    2800 2100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID4
 U 1 1 5D64B742
-P 4550 2300
-F 0 "FID4" H 4635 2346 50  0000 L CNN
-F 1 "Fiducial" H 4635 2255 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4550 2300 50  0001 C CNN
-F 3 "~" H 4550 2300 50  0001 C CNN
-	1    4550 2300
+P 2800 2450
+F 0 "FID4" H 2885 2496 50  0000 L CNN
+F 1 "Fiducial" H 2885 2405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2800 2450 50  0001 C CNN
+F 3 "~" H 2800 2450 50  0001 C CNN
+	1    2800 2450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:Fiducial FID3
 U 1 1 5D64B883
-P 4000 2300
-F 0 "FID3" H 4085 2346 50  0000 L CNN
-F 1 "Fiducial" H 4085 2255 50  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 4000 2300 50  0001 C CNN
-F 3 "~" H 4000 2300 50  0001 C CNN
-	1    4000 2300
+P 2250 2450
+F 0 "FID3" H 2335 2496 50  0000 L CNN
+F 1 "Fiducial" H 2335 2405 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Mask1mm" H 2250 2450 50  0001 C CNN
+F 3 "~" H 2250 2450 50  0001 C CNN
+	1    2250 2450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1483,4 +1459,142 @@ Wire Wire Line
 Connection ~ 8200 3450
 Wire Wire Line
 	8200 3450 8550 3450
+$Comp
+L DW-01:DW-01 U12
+U 1 1 5D95634C
+P 5050 1550
+F 0 "U12" H 5050 1550 50  0001 L BNN
+F 1 "DW-01" H 5050 1550 50  0001 L BNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 5050 1550 50  0001 L BNN
+F 3 "1808 Murata Electronics" H 5050 1550 50  0001 L BNN
+F 4 "Murata Electronics" H 5050 1550 50  0001 L BNN "Field4"
+F 5 "None" H 5050 1550 50  0001 L BNN "Field5"
+F 6 "Unavailable" H 5050 1550 50  0001 L BNN "Field6"
+F 7 "Eldon Vloerstaande kasten DW - DW01" H 5050 1550 50  0001 L BNN "Field7"
+F 8 "DW01" H 5050 1550 50  0001 L BNN "Field8"
+	1    5050 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 2250 2    50   UnSpc ~ 0
+GND_PROT
+$Comp
+L Device:R R35
+U 1 1 5D992BE6
+P 4150 1300
+F 0 "R35" V 3943 1300 50  0000 C CNN
+F 1 "100" V 4034 1300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 1300 50  0001 C CNN
+F 3 "~" H 4150 1300 50  0001 C CNN
+	1    4150 1300
+	0    1    1    0   
+$EndComp
+Text GLabel 3900 1300 0    50   UnSpc ~ 0
+VCC
+Wire Wire Line
+	3900 1300 4000 1300
+Wire Wire Line
+	4300 1300 4500 1300
+$Comp
+L Device:C C7
+U 1 1 5D9AE142
+P 4500 1450
+F 0 "C7" V 4248 1450 50  0000 C CNN
+F 1 "100nF" V 4339 1450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 1300 50  0001 C CNN
+F 3 "~" H 4500 1450 50  0001 C CNN
+	1    4500 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 1300
+NoConn ~ 4500 1750
+$Comp
+L Transistor_FET:DMN2050L Q6
+U 1 1 5D9BCDE4
+P 4850 2250
+F 0 "Q6" H 4700 2350 50  0000 L CNN
+F 1 "AO3400 (A09T)" H 4650 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 2175 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 4850 2250 50  0001 L CNN
+	1    4850 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:DMN2050L Q7
+U 1 1 5D9BD812
+P 5250 2250
+F 0 "Q7" H 5100 2350 50  0000 L CNN
+F 1 "AO3400 (A09T)" H 5050 2000 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5450 2175 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 5250 2250 50  0001 L CNN
+	1    5250 2250
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	5250 2050 5200 2050
+Wire Wire Line
+	5450 2350 5450 2250
+Wire Wire Line
+	5450 2250 5550 2250
+Text GLabel 3900 1600 0    50   UnSpc ~ 0
+GND
+$Comp
+L Device:R R36
+U 1 1 5DA029AF
+P 5550 1850
+F 0 "R36" V 5343 1850 50  0000 C CNN
+F 1 "1k" V 5434 1850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5480 1850 50  0001 C CNN
+F 3 "~" H 5550 1850 50  0001 C CNN
+	1    5550 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5550 2000 5550 2250
+Connection ~ 5550 2250
+Wire Wire Line
+	5550 2250 5600 2250
+Wire Wire Line
+	3900 1600 4300 1600
+Connection ~ 4500 1600
+Wire Wire Line
+	4300 2350 4300 1600
+Wire Wire Line
+	4300 2350 4650 2350
+Connection ~ 4300 1600
+Wire Wire Line
+	4300 1600 4500 1600
+$Comp
+L Transistor_FET:DMN2050L Q8
+U 1 1 5DA46634
+P 4850 2500
+F 0 "Q8" H 4700 2600 50  0000 L CNN
+F 1 "AO3400 (A09T)" H 4650 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5050 2425 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 4850 2500 50  0001 L CNN
+	1    4850 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Transistor_FET:DMN2050L Q9
+U 1 1 5DA4663B
+P 5250 2500
+F 0 "Q9" H 5100 2600 50  0000 L CNN
+F 1 "AO3400 (A09T)" H 5050 2250 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5450 2425 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/ao3400.pdf" H 5250 2500 50  0001 L CNN
+	1    5250 2500
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4850 2300 4850 2050
+Connection ~ 4850 2050
+Wire Wire Line
+	5250 2300 5250 2050
+Connection ~ 5250 2050
+Wire Wire Line
+	4650 2600 4650 2350
+Connection ~ 4650 2350
+Wire Wire Line
+	5450 2600 5450 2350
+Connection ~ 5450 2350
 $EndSCHEMATC

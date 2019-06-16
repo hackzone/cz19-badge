@@ -4,4 +4,5 @@
   (lib (name LP5024)(type Legacy)(uri ${KIPRJMOD}/libs/LP5024.lib)(options "")(descr ""))
   (lib (name rgbchip)(type Legacy)(uri ${KIPRJMOD}/libs/rgbchip.lib)(options "")(descr ""))
   (lib (name tm-kicad-lib)(type Legacy)(uri ${KIPRJMOD}/libs/tm-kicad-lib.lib)(options "")(descr ""))
+  (lib (name DW-01)(type Legacy)(uri ${KIPRJMOD}/libs/DW-01.lib)(options "")(descr ""))
 )
