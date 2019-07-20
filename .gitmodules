@@ -1,3 +1,3 @@
 [submodule "firmware"]
 	path = firmware
-	url = git@github.com:badgeteam/ESP32-Firmware.git
+	url = git@github.com:badgeteam/new-esp32-firmware.git
