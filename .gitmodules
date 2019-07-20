@@ -1,0 +1,4 @@
+[submodule "cz19-badge-firmware"]
+	path = cz19-badge-firmware
+	url = git@github.com:badgeteam/new-esp32-firmware.git
+	branch = master
