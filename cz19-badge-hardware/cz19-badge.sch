@@ -1482,7 +1482,7 @@ L Device:R R35
 U 1 1 5D992BE6
 P 4150 1300
 F 0 "R35" V 3943 1300 50  0000 C CNN
-F 1 "100" V 4034 1300 50  0000 C CNN
+F 1 "470" V 4034 1300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 1300 50  0001 C CNN
 F 3 "~" H 4150 1300 50  0001 C CNN
 	1    4150 1300
@@ -1597,4 +1597,38 @@ Connection ~ 4650 2350
 Wire Wire Line
 	5450 2600 5450 2350
 Connection ~ 5450 2350
+$Comp
+L Jumper:SolderJumper_2_Open JP1
+U 1 1 5DF25071
+P 5000 750
+F 0 "JP1" H 5000 955 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 5000 864 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 5000 750 50  0001 C CNN
+F 3 "~" H 5000 750 50  0001 C CNN
+	1    5000 750 
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 750  0    50   UnSpc ~ 0
+GND
+Text GLabel 5150 750  2    50   UnSpc ~ 0
+GND_PROT
+Text Notes 4050 550  0    50   ~ 0
+In case we messed up the DW01 protection circuit
+Text GLabel 6500 5700 2    50   Input ~ 0
+ESP_FLASH
+$Comp
+L Jumper:SolderJumper_2_Bridged JP2
+U 1 1 5DF38C5D
+P 6350 5700
+F 0 "JP2" H 6350 5905 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 6350 5814 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm" H 6350 5700 50  0001 C CNN
+F 3 "~" H 6350 5700 50  0001 C CNN
+	1    6350 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 6200 5700 0    50   Input ~ 0
+BTN_DOWN
+Text Notes 5550 5450 0    50   ~ 0
+So we can force flash mode on boot
 $EndSCHEMATC
