@@ -1,0 +1,4 @@
+[submodule "firmware"]
+	path = firmware
+	url = git@github.com:badgeteam/new-esp32-firmware.git
+	branch = master
