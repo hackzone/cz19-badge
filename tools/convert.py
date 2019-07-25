@@ -45,7 +45,7 @@ for frame_no in range(start_at_frame, start_at_frame + used_frames):
     frames.append(cut_frame)
 
 if is_icon:
-    print('([0x' +
+    print('icon = ([0x' +
           ', 0x'.join([', 0x'.join([format(r << 24 | g << 16 | b << 8 | a, '08x') for r, g, b, a in frame]) for frame in
                        frames]) +
           '], %d)' % used_frames)
