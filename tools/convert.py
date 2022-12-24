@@ -45,12 +45,22 @@ for frame_no in range(start_at_frame, start_at_frame + used_frames):
     frames.append(cut_frame)
 
 if is_icon:
-    print('icon = ([0x' +
-          ', 0x'.join([', 0x'.join([format(r << 24 | g << 16 | b << 8 | a, '08x') for r, g, b, a in frame]) for frame in
-                       frames]) +
-          '], %d)' % used_frames)
+    print('icon = ([')
+    for frame_idx, frame in enumerate(frames):
+        print('    # frame %d' % frame_idx)
+        for i in range(0, len(frame), length_x):
+            print('   ', end='')
+            for r, g, b, a in frame[i:i+length_x]:
+                print(' ' + format(r << 24 | g << 16 | b << 8 | a, '#010x') + ',', end='')
+            print()
+    print('], %d)' % used_frames)
 else:
-    print('rgb.gif([0x' +
-          ', 0x'.join([', 0x'.join([format(r << 24 | g << 16 | b << 8 | a, '08x') for r, g, b, a in frame]) for frame in
-                       frames]) +
-          '], (%d, %d), (%d, %d), %d)' % (0, 0, used_width, used_height, used_frames))
+    print('rgb.gif([')
+    for frame_idx, frame in enumerate(frames):
+        print('    # frame %d' % frame_idx)
+        for i in range(0, len(frame), length_x):
+            print('   ', end='')
+            for r, g, b, a in frame[i:i+length_x]:
+                print(' ' + format(r << 24 | g << 16 | b << 8 | a, '#010x') + ',', end='')
+            print()
+    print('], (%d, %d), (%d, %d), %d)' % (0, 0, used_width, used_height, used_frames))
