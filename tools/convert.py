@@ -45,12 +45,12 @@ for frame_no in range(start_at_frame, start_at_frame + used_frames):
     frames.append(cut_frame)
 
 if is_icon:
-    print('icon = ([0x' +
-          ', 0x'.join([', 0x'.join([format(r << 24 | g << 16 | b << 8 | a, '08x') for r, g, b, a in frame]) for frame in
+    print('icon = ([' +
+          ', '.join([', '.join([format(r << 24 | g << 16 | b << 8 | a, '#010x') for r, g, b, a in frame]) for frame in
                        frames]) +
           '], %d)' % used_frames)
 else:
-    print('rgb.gif([0x' +
-          ', 0x'.join([', 0x'.join([format(r << 24 | g << 16 | b << 8 | a, '08x') for r, g, b, a in frame]) for frame in
+    print('rgb.gif([' +
+          ', '.join([', '.join([format(r << 24 | g << 16 | b << 8 | a, '#010x') for r, g, b, a in frame]) for frame in
                        frames]) +
           '], (%d, %d), (%d, %d), %d)' % (0, 0, used_width, used_height, used_frames))
